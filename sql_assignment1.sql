@@ -128,7 +128,7 @@ INSERT INTO [dbo].[OrderItem]
            ,[UnitPrice]
            ,[Quantity])
      VALUES
-           (1,1,1,15,5),(2,1,1,12,3)(3,2,2,13,2),(4,2,2,13,3),(5,3,3,16,4),(6,3,4,17,2),
+           (1,1,1,15,5),(2,1,1,12,3)(3,2,2,13,2),(4,2,2,13,3),(5,3,3,16,4),(6,3,4,17,2);
 
 
 INSERT INTO [dbo].[ShippingAgency]
@@ -155,7 +155,7 @@ INSERT INTO [dbo].[employee]
            ,[joiningdate]
            ,[managername])
      VALUES
-           (1,'kiran',1,2020-02-01,'kumar'),(2,'arun',2,2021-04-05,'thomas'),(3,'lissy',3,2019-04-07,'jithin'),
+           (1,'kiran',1,2020-02-01,'kumar'),(2,'arun',2,2021-04-05,'thomas'),(3,'lissy',3,2019-04-07,'jithin');
 
 
 
