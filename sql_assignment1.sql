@@ -105,7 +105,7 @@ INSERT INTO [dbo].[Order]
            ,[shippingdate]
            ,[shippingcompanyID])
      VALUES
-           (1,'2020-02-01',3,1,100,'2018-02-04),(2,'2021-03-05',5,2,250,'1998-08-07'),(3,'2015-05-02',8,3,650,NULL),(4,'1997-07-05',7,4,950,'2010-06-03);
+           (1,'2020-02-01',3,1,100,'2018-02-04'),(2,'2021-03-05',5,2,250,'1998-08-07'),(3,'2015-05-02',8,3,650,NULL),(4,'1997-07-05',7,4,950,'2010-06-03');
 
 
 INSERT INTO [dbo].[Product]
@@ -118,7 +118,7 @@ INSERT INTO [dbo].[Product]
            ,[category]
            ,[unitsavailable])
      VALUES
-           (1,'car',20,2,0,'bosch','liquid',20),(2,'bike',50,3,1,''Exotic Liquids','tyre',30),(3,'chai',30,4,1,'abc','cda',50),(4,'book',80,5,0,'vds','seafood',70);
+           (1,'car',20,2,0,'bosch','liquid',20),(2,'bike',50,3,1,'Exotic Liquids','tyre',30),(3,'chai',30,4,1,'abc','cda',50),(4,'book',80,5,0,'vds','seafood',70);
 
 
 INSERT INTO [dbo].[OrderItem]
